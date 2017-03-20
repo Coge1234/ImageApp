@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.imageapp">
+
+    <application
+        android:name=".app.ExampleApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".PrimaryColorActivity" />
+        <activity android:name=".ColorMatrixActivity" />
+        <activity android:name=".PixelsEffectActivity" />
+        <activity android:name=".ImageMatrixActivity" />
+        <activity android:name=".RoundRectxfermodeActivity" />
+        <activity android:name=".BitmapShaderActivity" />
+        <activity android:name=".ReflectViewActivity" />
+        <activity android:name=".MeshViewActivity"/>
+        <activity android:name=".TestLeakcanaryActivity"/>
+    </application>
+
+</manifest>
